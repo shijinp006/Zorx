@@ -132,7 +132,7 @@ export default function CTA() {
                 </span>
               </motion.a>
               <a
-                href="https://wa.me/971500000000"
+                href="https://wa.me/971543962660"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 border border-white/40 text-white rounded-2xl px-8 py-4 font-semibold hover:bg-white hover:text-zorx-deep transition-all"
@@ -153,9 +153,9 @@ export default function CTA() {
               hello@zorx.ae
             </a>
             <div className="mt-4 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-white/60">
-              <span>+971 50 000 0000</span>
+              <span>+971 54 396 2660</span>
               <span className="text-lime">✦</span>
-              <span>Business Bay, Dubai</span>
+              <span>Office No 147, Emarat Atrium, Sheikh Zayed Road - E11 - Dubai</span>
               <span className="text-lime">✦</span>
               <span>Mon–Sat • 9am–7pm GST</span>
             </div>

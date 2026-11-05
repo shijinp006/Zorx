@@ -65,7 +65,7 @@ export default function Work() {
               href="#contact"
               data-aos="zoom-in"
               data-aos-delay={(i % 3) * 60}
-              className={`group relative rounded-[1.5rem] overflow-hidden bg-[#07130c] border border-white/15 block ${p.span} ${p.aspect} hover:border-lime/60 hover:shadow-[0_30px_80px_rgba(0,0,0,.45)] hover:-translate-y-2 transition-all duration-500`}
+              className={`group cursor-pointer relative rounded-[1.5rem] overflow-hidden bg-[#07130c] border border-white/15 block ${p.span} ${p.aspect} hover:border-lime/60 hover:shadow-[0_30px_80px_rgba(0,0,0,.45)] hover:-translate-y-2 transition-all duration-500`}
             >
               <ParallaxThumb src={p.img} alt={p.title} />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/25 to-transparent pointer-events-none" />

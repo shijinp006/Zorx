@@ -48,7 +48,7 @@ export default function WhyZorx() {
               key={l}
               data-aos="zoom-in"
               data-aos-delay={i * 60}
-              className="rounded-3xl border hairline bg-coal p-7 md:p-8 hover:border-zorx/50 hover:-translate-y-1 transition-all duration-300"
+              className="cursor-pointer rounded-3xl border hairline bg-coal p-7 md:p-8 hover:border-zorx/50 hover:-translate-y-1 transition-all duration-300"
             >
               <div className="font-display font-extrabold text-4xl md:text-5xl text-cream tabular-nums">
                 <Counter to={v} suffix={s} decimals={d} />
@@ -65,7 +65,7 @@ export default function WhyZorx() {
               key={r.n}
               data-aos="flip-up"
               data-aos-delay={(i % 2) * 80}
-              className="group rounded-3xl border hairline bg-coal p-8 md:p-10 hover:bg-zorx-deep hover:border-zorx-deep transition-colors duration-300"
+              className="group cursor-pointer rounded-3xl border hairline bg-coal p-8 md:p-10 hover:bg-zorx-deep hover:border-zorx-deep transition-colors duration-300"
             >
               <div className="flex items-center justify-between">
                 <span className="font-display font-extrabold text-lg text-zorx group-hover:text-lime transition-colors">{r.n}</span>

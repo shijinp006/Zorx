@@ -43,7 +43,7 @@ export default function Services() {
               key={s.title}
               href="#contact"
               data-aos={i % 2 === 0 ? 'fade-right' : 'fade-left'}
-              className="group grid sm:grid-cols-[auto_1fr_auto] items-center gap-5 rounded-3xl border hairline bg-ink p-6 md:p-8 hover:border-zorx/50 hover:shadow-[0_24px_60px_rgba(12,19,14,.12)] hover:-translate-y-1 transition-all duration-300"
+              className="group cursor-pointer grid sm:grid-cols-[auto_1fr_auto] items-center gap-5 rounded-3xl border hairline bg-ink p-6 md:p-8 hover:border-zorx/50 hover:shadow-[0_24px_60px_rgba(12,19,14,.12)] hover:-translate-y-1 transition-all duration-300"
             >
               <span className="flex sm:flex-col items-center gap-4">
                 <span className="font-display font-extrabold text-sm text-zorx">0{i + 1}</span>

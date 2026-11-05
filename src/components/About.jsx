@@ -73,10 +73,6 @@ export default function About() {
                 className="rounded-[1.4rem] border hairline shadow-[0_24px_60px_rgba(12,19,14,.20)] aspect-[4/3]"
                 shutter="#12914a"
               />
-              <div className="absolute -top-5 -right-2 md:-right-4 bg-lime text-cream rounded-2xl px-5 py-3.5 shadow-xl rotate-3 hover:rotate-0 transition-transform">
-                <p className="font-display font-extrabold text-2xl leading-none">6+ yrs</p>
-                <p className="mt-1 text-[10px] font-display font-bold tracking-[0.2em] opacity-70">MENA ATELIER</p>
-              </div>
             </motion.div>
           </div>
         </div>
@@ -87,7 +83,7 @@ export default function About() {
               key={p.title}
               data-aos="fade-up"
               data-aos-delay={(i % 4) * 70}
-              className="group rounded-3xl border hairline bg-coal p-7 md:p-8 hover:border-zorx/50 hover:-translate-y-1.5 hover:shadow-[0_24px_50px_rgba(12,19,14,.12)] transition-all duration-300"
+              className="group cursor-pointer rounded-3xl border hairline bg-coal p-7 md:p-8 hover:border-zorx/50 hover:-translate-y-1.5 hover:shadow-[0_24px_50px_rgba(12,19,14,.12)] transition-all duration-300"
             >
               <span className="w-12 h-12 rounded-2xl bg-zorx/10 text-zorx grid place-items-center group-hover:bg-zorx group-hover:text-white group-hover:scale-110 group-hover:-rotate-6 transition-all duration-300">
                 <p.icon className="w-6 h-6" />

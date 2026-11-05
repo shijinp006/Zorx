@@ -92,9 +92,6 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center gap-3">
-            <span className="hidden xl:inline text-[10px] tracking-[0.3em] text-fog font-display font-semibold mr-2">
-              EST. 2019 — DUBAI
-            </span>
             <a
               href="#contact"
               className="group hidden sm:inline-flex items-center gap-3 bg-zorx-deep text-[#F4F1E6] font-display font-bold text-[12px] tracking-[0.16em] uppercase px-6 py-3.5 rounded-full hover:bg-zorx transition-colors duration-300"

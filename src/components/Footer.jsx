@@ -84,16 +84,28 @@ export default function Footer() {
                 ))}
               </ul>
               <ul className="mt-6 space-y-2 text-sm text-white/60">
-                <li>Business Bay, Dubai, UAE</li>
+                <li>Office No 147, Emarat Atrium, Sheikh Zayed Road - E11 - Dubai</li>
                 <li>
                   <a href="mailto:hello@zorx.ae" className="text-lime hover:underline">hello@zorx.ae</a>
                   {'  •  '}
-                  <a href="tel:+971500000000" className="hover:text-lime">+971 50 000 0000</a>
+                  <a href="tel:+971543962660" className="hover:text-lime">+971 54 396 2660</a>
                 </li>
               </ul>
             </div>
           </FadeUp>
         </div>
+
+        <FadeUp delay={0.1}>
+          <div className="mt-12 rounded-2xl border border-white/15 overflow-hidden">
+            <iframe
+              title="ZORX office location — Emarat Atrium, Sheikh Zayed Road, Dubai"
+              src="https://www.google.com/maps?q=Bridgewater%20Management%20Consultants%2C%20Office%20No%20147%2C%20Emarat%20Atrium%2C%20Sheikh%20Zayed%20Road%20-%20E11%20-%20Dubai&output=embed"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="block w-full h-[260px] md:h-[340px] border-0"
+            />
+          </div>
+        </FadeUp>
 
         <FadeUp delay={0.1}>
           <a
